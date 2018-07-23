@@ -11,8 +11,13 @@
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
 
-    
-
+    <section>
+      <h3>Open File</h3>
+      <button id="select-directory">open-file-dialog</button><br />
+      <img id="selected-image" src="" /><br />
+      <span id="selected-file">bla blub</span>
+    </section>
+   
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')
