@@ -18,11 +18,5 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0"
-  },
-  "dependencies": {
-    "@clr/angular": "^0.12.5",
-    "@clr/icons": "^0.12.5",
-    "@clr/ui": "^0.12.5",
-    "@webcomponents/custom-elements": "^1.0.0"
   }
 }

@@ -1,6 +1,7 @@
 // This file is required by the index.html file and will
 // be executed in the renderer process for that window.
 // All of the Node.js APIs are available in this process.
+<<<<<<< HEAD
 
 const { ipcRenderer } = require("electron");
 
@@ -18,3 +19,5 @@ ipcRenderer.on("selected-image", (event, path) => {
   console.log("image received:", path);
   document.getElementById("selected-image").src = `${path}`;
 });
+=======
+>>>>>>> parent of 6c163e3...  added navigation sections
